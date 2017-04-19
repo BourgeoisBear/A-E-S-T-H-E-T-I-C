@@ -15,12 +15,15 @@ NOTES:
    Press Ctrl+D to send an EOF character to exit.
 ```
 
-BEFORE & AFTER
---------------
+ＷＨＹ？
+-------
 `TODO: EXAMPLES`
+* figlet-y headings
+* code pranks
+* ＡＥＳＴＨＥＴＩＣＳ
 
-DIRECTIONS
-----------
+ＤＩＲＥＣＴＩＯＮＳ
+------------------
 1. Install semi-recent versions of `gcc` and `make` for your OS.
 2. Run `make`.
 3. Put the path to the binary `ＡＥＳＴＨＥＴＩＣ` somewhere on your `$PATH`.
