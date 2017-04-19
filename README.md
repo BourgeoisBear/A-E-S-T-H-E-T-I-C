@@ -14,16 +14,22 @@ NOTES:
    Press Ctrl+D to send an EOF character to exit.
 ```
 
-## ＷＨＹ？
-### FIGLET-STYLE HEADINGS
 
+## Directions
+1. Install semi-recent versions of `gcc` and `make` for your OS.
+2. Run `make`.
+3. Put the path to the binary `ＡＥＳＴＨＥＴＩＣ` somewhere on your `$PATH`.
+4. ｅｎｊｏｙ
+
+
+## Why?
+### FIGLET-STYLE HEADINGS
 1. Put the following in your `.vimrc`, then save:<br/>
    `vnoremap <leader>a :!ＡＥＳＴＨＥＴＩＣ<CR>`
 2. Reload vim config with `:source $MYVIMRC`.
 3. Select text in visual mode, `<leader>a` will transform the selection.
 
 ### CODE PRANKS
-
 ```
 ／／　ＴＲＡＮＳＬＡＴＥ　ＴＯ　ＴＩＴＬＥ　ＣＡＰＳ
 ｗｈｉｌｅ（　１　）　｛
@@ -51,6 +57,7 @@ NOTES:
 ｝；
 ```
 
+
 ### ＡＥＳＴＨＥＴＩＣＳ AT YOUR FINGERTIPS
 ```
 $ ./ＡＥＳＴＨＥＴＩＣ 
@@ -68,9 +75,3 @@ $ ./ＡＥＳＴＨＥＴＩＣ
 > Testing, 1 2 3 4...
 Ｔｅｓｔｉｎｇ，　１　２　３　４．．．
 ```
-
-## ＤＩＲＥＣＴＩＯＮＳ
-1. Install semi-recent versions of `gcc` and `make` for your OS.
-2. Run `make`.
-3. Put the path to the binary `ＡＥＳＴＨＥＴＩＣ` somewhere on your `$PATH`.
-4. ｅｎｊｏｙ
