@@ -6,7 +6,7 @@ USAGE:
    ＡＥＳＴＨＥＴＩＣ [OPTION]...
    
 OPTIONS:
-   -f      INPUT FILENAME (uses STDIN if blank)
+   -f      INPUT FILENAME (uses STDIN if omitted)
    -h      HELP: THIS MESSAGE
    
 NOTES:
