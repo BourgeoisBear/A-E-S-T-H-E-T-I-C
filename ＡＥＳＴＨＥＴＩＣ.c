@@ -82,8 +82,6 @@ int main (int argc, char *argv[]) {
 
       nFlag = getopt(argc, argv, "hf:");
 
-      // TODO: VIM KEYBINDING EXAMPLE + SCREENCAST
-      // TODO: COLOR EXAMPLES
       if( nFlag == -1 ) {
 
          break;
@@ -96,7 +94,7 @@ int main (int argc, char *argv[]) {
 "USAGE:\n"
 "   ＡＥＳＴＨＥＴＩＣ [OPTION]...\n\n"
 "OPTIONS:\n"
-"   -f      INPUT FILENAME (uses STDIN if blank)\n"
+"   -f      INPUT FILENAME (uses STDIN if omitted)\n"
 "   -h      HELP: THIS MESSAGE\n\n"
 "NOTES:\n"
 "   Runs in ＩＮＴＥＲＡＣＴＩＶＥ　ＭＯＤＥ when STDIN is the TTY.\n"
@@ -121,10 +119,6 @@ int main (int argc, char *argv[]) {
 
    if( pFile == NULL )
       pFile = stdin;
-
-/*
-   TODO: _isatty, _fileno FOR WIN32
-*/
 
    // DEFAULT TO FULL BUFFERING (FILES & PIPES)
    int nBufferMode = _IOFBF;
